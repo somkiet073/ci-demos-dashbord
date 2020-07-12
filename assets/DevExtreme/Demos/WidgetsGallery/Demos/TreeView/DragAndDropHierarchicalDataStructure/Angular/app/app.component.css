@@ -1,0 +1,31 @@
+::ng-deep .form {
+    display: flex;
+}
+
+::ng-deep .form>div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+::ng-deep #treeviewDriveC,
+::ng-deep #treeviewDriveD {
+    margin-top: 10px;
+}
+
+::ng-deep .drive-panel {
+    padding: 20px 30px;
+    font-size: 115%;
+    font-weight: bold;
+    border: 1px solid #dadada;
+    height: 100%;
+}
+
+::ng-deep .dx-treeview-item .icon {
+    position: relative;
+    left: -4px;
+    top: 1px;
+}
+
+::ng-deep .drive-panel:last-of-type {
+    border-left-width: 0px;
+}
