@@ -20,6 +20,7 @@
 
 	<!-- Custom styles for this template-->
 	<link href="<?php echo base_url(); ?>assets/css/sb-admin-2.min.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>assets/vendor/select2/dist/css/select2.min.css" rel="stylesheet">
 
 </head>
 
@@ -800,6 +801,9 @@
 	<script src="<?php echo base_url(); ?>assets/app-js/d6-1.js"></script>
 	<script src="<?php echo base_url(); ?>assets/app-js/d6-2.js"></script>
 	<script src="<?php echo base_url(); ?>assets/app-js/data.js"></script>
+
+	<script src="<?php echo base_url(); ?>assets/vendor/select2/dist/js/select2.full.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/app.js"></script>
 </body>
 
 </html>
