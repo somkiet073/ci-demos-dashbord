@@ -53,8 +53,12 @@ $route['default_controller'] = 'app/dashboard/Dashboard/index';//'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+// route/api get all
+$route['api/users'] = 'app/api/Api_master/users/';
+// $route['api/users/(:any)'] = 'app/api/Api_master/users/';
 
 // route/dashboard
 $route['dashboard'] = 'app/dashboard/Dashboard/index';
 
 // route/dashboard
+$route['component'] = 'app/components/Component/index';
