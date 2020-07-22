@@ -53,12 +53,18 @@ $route['default_controller'] = 'app/dashboard/Dashboard/index';//'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-// route/api get all
-$route['api/users'] = 'app/api/Api_master/users/';
-// $route['api/users/(:any)'] = 'app/api/Api_master/users/';
-
+// ---------------------- menu ----------------------------
 // route/dashboard
 $route['dashboard'] = 'app/dashboard/Dashboard/index';
-
-// route/dashboard
+// route/component
 $route['component'] = 'app/components/Component/index';
+
+
+// ---------------------- api -------------------------------
+// route/api get all
+$route['api/user'] = 'app/api/Api_master/users';
+// route/api get by id GET, PUT, PATCH, DELETE
+$route['api/user/(:any)'] = 'app/api/Api_master/user/id/$1'; 
+// route post 
+$route['api/user'] = 'app/api/Api_master/user';
+ 
