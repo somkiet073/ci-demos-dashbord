@@ -11,7 +11,7 @@ $(function(){
                             "USD", { maximumFractionDigits: 0 }) :
                         args.originalValue;
     
-                return {
+                return { 
                     html: args.seriesName + "<div class='currency'>"
                         + valueText + "</div>"
                 };
