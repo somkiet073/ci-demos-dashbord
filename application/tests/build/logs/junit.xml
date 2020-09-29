@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Welcome_test" file="C:\wamp64\www\ci-demos-dashbord\application\tests\controllers\Welcome_test.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.011001">
+    <testcase name="test_index" class="Welcome_test" classname="Welcome_test" file="C:\wamp64\www\ci-demos-dashbord\application\tests\controllers\Welcome_test.php" line="13" assertions="0" time="0.011001">
+      <error type="RuntimeException">Welcome_test::test_index
+RuntimeException: Undefined index: HTTP_HOST on line 32 in file C:\wamp64\www\ci-demos-dashbord\application\config\config.php
+
+C:\wamp64\www\ci-demos-dashbord\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:178
+C:\wamp64\www\ci-demos-dashbord\application\config\config.php:32
+C:\wamp64\www\ci-demos-dashbord\application\tests\_ci_phpunit_test\replacing\core\Common.php:350
+C:\wamp64\www\ci-demos-dashbord\application\tests\_ci_phpunit_test\replacing\core\Common.php:339
+C:\wamp64\www\ci-demos-dashbord\application\tests\_ci_phpunit_test\functions.php:114
+C:\wamp64\www\ci-demos-dashbord\application\tests\_ci_phpunit_test\functions.php:32
+C:\wamp64\www\ci-demos-dashbord\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:277
+C:\wamp64\www\ci-demos-dashbord\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:160
+C:\wamp64\www\ci-demos-dashbord\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:153
+C:\wamp64\www\ci-demos-dashbord\application\tests\controllers\Welcome_test.php:15</error>
+    </testcase>
+  </testsuite>
+</testsuites>
